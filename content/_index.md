@@ -1,5 +1,5 @@
 +++
-date = '2025-11-08T14:26:39+01:00'
+date = '2023-10-15'
 draft = false
 title = 'home'
 menu = 'main'

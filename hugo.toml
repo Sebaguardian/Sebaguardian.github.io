@@ -23,14 +23,14 @@ enableRobotsTXT = true
   #   contentDir = "content.pl"
 
 [params]
-  description = "ok"
+  description = "My website"
 
   # favicon = "images/favicon.png"
   # openGraph and that kinda stuff
   # images = ["images/share.webp"]
 
   title = "Sebaguardian"
-  dateFormat = "31-12-2006"
+  dateFormat = "2006-01-02"
   hideUntranslated = false
   themeStyle = "original"
 
