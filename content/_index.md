@@ -16,4 +16,4 @@ herrow, this website was made so adam can add my badge to his website.
 
 adam in question:
 
-![mimi the car (adam's site)](https://adamperkowski.dev/img/badges/mimi-the-car.gif)
+[![mimi the car (adam's site)](https://adamperkowski.dev/img/badges/mimi-the-car.gif)](https://adamperkowski.dev)
