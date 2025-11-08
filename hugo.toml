@@ -1,4 +1,44 @@
-baseURL = 'https://example.org/'
-languageCode = 'en-us'
-title = 'My New Hugo Site'
+baseURL = 'https://sebaguardian.github.io'
+defaultContentLanguage = "en"
+title = 'Sebaguardian'
 theme = "hugo-bearcub"
+
+enableRobotsTXT = true
+
+# not sure what this does, check out later ~ adam
+[markup]
+  [markup.highlight]
+    lineNos = true
+    lineNumbersInTable = false
+    noClasses = false
+
+[languages]
+  [languages.en]
+    languageName = "english"
+    LanguageCode = "en-US"
+    contentDir = "content"
+  # [languages.pl]
+  #   languageName = "polish"
+  #   LanguageCode = "pl-PL"
+  #   contentDir = "content.pl"
+
+[params]
+  description = "ok"
+
+  # favicon = "images/favicon.png"
+  # openGraph and that kinda stuff
+  # images = ["images/share.webp"]
+
+  title = "Sebaguardian"
+  dateFormat = "31-12-2006"
+  hideUntranslated = false
+  themeStyle = "original"
+
+  generateSocialCard = true
+  # [params.social]
+  #   twitter = "example" # Twitter handle (without '@')
+  #   facebook_admin = "0000000000" # Facebook Page Admin ID
+
+  [params.author]
+    name = "Sebaguardian"
+    # email = "me@example.com"
