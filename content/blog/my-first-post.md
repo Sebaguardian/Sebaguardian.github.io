@@ -9,5 +9,3 @@ title = 'My First Post'
 yo this is test of my programming skillz
 
 I *hope* it will work
-
-where the heck are you?!?
