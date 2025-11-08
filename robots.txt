@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://sebaguardian.github.io/sitemap.xml
