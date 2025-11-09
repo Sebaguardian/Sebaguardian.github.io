@@ -2,7 +2,7 @@ baseURL = 'https://sebaguardian.github.io'
 defaultContentLanguage = "en"
 title = 'Sebaguardian'
 theme = "hugo-bearcub"
-
+copyright = "Sebaguardian (MIT License)"
 enableRobotsTXT = true
 
 # not sure what this does, check out later ~ adam
@@ -21,6 +21,8 @@ enableRobotsTXT = true
   #   languageName = "polish"
   #   LanguageCode = "pl-PL"
   #   contentDir = "content.pl"
+    [languages.en.params]
+      madeWith = "Made with [Bear Cub](https://github.com/clente/hugo-bearcub)"
 
 [params]
   description = "My website"
@@ -34,7 +36,7 @@ enableRobotsTXT = true
   hideUntranslated = false
   themeStyle = "original"
 
-  generateSocialCard = true
+  # generateSocialCard = true
   # [params.social]
   #   twitter = "example" # Twitter handle (without '@')
   #   facebook_admin = "0000000000" # Facebook Page Admin ID
