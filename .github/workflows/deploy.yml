@@ -29,10 +29,9 @@ jobs:
         run: hugo --minify
 
       - name: deploy to nekoweb
-        uses: mp-pinheiro/nekoweb-deploy@main
+        uses: indiefellas/deploy2nekoweb@main
         with:
-          API_KEY: ${{ secrets.NEKOWEB_API_KEY }}
-          BUILD_DIR: './public'
-          DEPLOY_DIR: '/'
-          CLEANUP: 'False'
-          NEKOWEB_PAGENAME: 'sebaguardian'
+          nekoweb-api-key: ${{ secrets.NEKOWEB_API_KEY }}
+          nekoweb-domain: 'sebaguardian.nekoweb.org'
+          nekoweb-username: 'sebaguardian'
+          directory: 'public'
