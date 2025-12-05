@@ -1,4 +1,4 @@
-baseURL = 'https://sebaguardian.github.io'
+baseURL = 'https://sebaguardian.nekoweb.org'
 defaultContentLanguage = "en"
 title = 'Sebaguardian'
 theme = "hugo-bearcub"
