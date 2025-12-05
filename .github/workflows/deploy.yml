@@ -28,8 +28,11 @@ jobs:
       - name: build
         run: hugo --minify
 
-      - name: deploy
-        uses: peaceiris/actions-gh-pages@v4
+      - name: deploy to nekoweb
+        uses: mp-pinheiro/nekoweb-deploy@main
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./public
+          API_KEY: ${{ secrets.NEKOWEB_API_KEY }}
+          BUILD_DIR: './public'
+          DEPLOY_DIR: '/'
+          CLEANUP: 'False'
+          NEKOWEB_PAGENAME: 'sebaguardian'
