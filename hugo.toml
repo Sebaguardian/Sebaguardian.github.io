@@ -11,6 +11,9 @@ enableRobotsTXT = true
     lineNos = true
     lineNumbersInTable = false
     noClasses = false
+  [markup.goldmark]
+  renderer.unsafe = true
+
 
 [languages]
   [languages.en]
