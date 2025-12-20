@@ -11,7 +11,5 @@ rm -rf public
 
 git submodule update --init --recursive
 hugo build
-cd public
-rsync -avz --delete . "$1:."
-cd -
+rsync -avz --delete --chmod=D755,F644 public/ "$1:."
 echo 'deployeded :3'
